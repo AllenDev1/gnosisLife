@@ -253,11 +253,11 @@ function App() {
                                     <div className="member-img"><img className="img-fluid serves-team-image-height"
                                                                      src={IMG_07ab}/>
                                     </div>
-                                    <div className="social"><a href="#"><i className="fab fa-facebook"></i></a><a
+                                    <div className="social"><a href="#"><i className="fab fa-facebook"/></a><a
                                         href="#"><i
-                                        className="fab fa-twitter"></i></a><a href="#"><i
-                                        className="fab fa-instagram"></i></a><a
-                                        href="#"><i className="fab fa-linkedin-in"></i></a></div>
+                                        className="fab fa-twitter"/></a><a href="#"><i
+                                        className="fab fa-instagram"/></a><a
+                                        href="#"><i className="fab fa-linkedin-in"/></a></div>
                                     <div className="member-info">
                                         <h5><strong>Saro Tobi</strong></h5><span>IT Manager</span></div>
                                 </div>
@@ -269,11 +269,11 @@ function App() {
                                     <div className="member-img"><img className="img-fluid serves-team-image-height"
                                                                      src={IMG_0f8}/>
                                     </div>
-                                    <div className="social"><a href="#"><i className="fab fa-facebook"></i></a><a
+                                    <div className="social"><a href="#"><i className="fab fa-facebook"/></a><a
                                         href="#"><i
-                                        className="fab fa-twitter"></i></a><a href="#"><i
-                                        className="fab fa-instagram"></i></a><a
-                                        href="#"><i className="fab fa-linkedin-in"></i></a></div>
+                                        className="fab fa-twitter"/></a><a href="#"><i
+                                        className="fab fa-instagram"/></a><a
+                                        href="#"><i className="fab fa-linkedin-in"/></a></div>
                                     <div className="member-info">
                                         <h5><strong>Rayuga</strong></h5><span>Website Designer</span></div>
                                 </div>
@@ -284,11 +284,11 @@ function App() {
                                 <div className="member">
                                     <div className="member-img"><img className="img-fluid serves-team-image-height"
                                                                      src={IMG_wp90}/></div>
-                                    <div className="social"><a href="#"><i className="fab fa-facebook"></i></a><a
+                                    <div className="social"><a href="#"><i className="fab fa-facebook"/></a><a
                                         href="#"><i
-                                        className="fab fa-twitter"></i></a><a href="#"><i
-                                        className="fab fa-instagram"></i></a><a
-                                        href="#"><i className="fab fa-linkedin-in"></i></a></div>
+                                        className="fab fa-twitter"/></a><a href="#"><i
+                                        className="fab fa-instagram"/></a><a
+                                        href="#"><i className="fab fa-linkedin-in"/></a></div>
                                     <div className="member-info">
                                         <h5><strong>Hinata</strong></h5><span>Marketing Expert</span></div>
                                 </div>
@@ -328,10 +328,10 @@ function App() {
                                 <p>App</p><a className="venobox preview-link"
                                              href={IMG_portfolio_1}
                                              data-gall="portfolioGallery" data-title="App 1" data-lightbox="App"><i
-    className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
-                                                                                              href="portfolio-details.html"
-                                                                                              title="More Details"><i
-    className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
+                                className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
+                                                                                           href="portfolio-details.html"
+                                                                                           title="More Details"><i
+                                className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
                         </div>
                         <div className="col-12 col-lg-4 col-md-6 portfolio-item filter-card" data-aos="fade-up"
                              data-aos-delay="200"><img className="img-fluid"
@@ -341,10 +341,10 @@ function App() {
                                 <p>Card</p><a className="venobox preview-link"
                                               href={IMG_portfolio_2}
                                               data-gall="portfolioGallery" data-title="Card 1" data-lightbox="Card"><i
-    className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
-                                                                                              href="portfolio-details.html"
-                                                                                              title="More Details"><i
-    className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
+                                className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
+                                                                                           href="portfolio-details.html"
+                                                                                           title="More Details"><i
+                                className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
                         </div>
                         <div className="col-12 col-lg-4 col-md-6 portfolio-item filter-web" data-aos="fade-up"
                              data-aos-delay="300">
@@ -355,10 +355,10 @@ function App() {
                                 <p>Web</p><a className="venobox preview-link"
                                              href={IMG_portfolio_3}
                                              data-gall="portfolioGallery" data-title="Web 1" data-lightbox="Web"><i
-    className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
-                                                                                              href="portfolio-details.html"
-                                                                                              title="More Details"><i
-    className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
+                                className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
+                                                                                           href="portfolio-details.html"
+                                                                                           title="More Details"><i
+                                className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
                         </div>
                         <div className="col-12 col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up"
                              data-aos-delay="400">
@@ -396,10 +396,10 @@ function App() {
                                 <p>Web</p><a className="venobox preview-link"
                                              href={IMG_portfolio_6}
                                              data-gall="portfolioGallery" data-title="Web 2" data-lightbox="Web"><i
-    className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
-                                                                                              href="portfolio-details.html"
-                                                                                              title="More Details"><i
-    className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
+                                className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
+                                                                                           href="portfolio-details.html"
+                                                                                           title="More Details"><i
+                                className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
                         </div>
                         <div className="col-12 col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up"
                              data-aos-delay="700">
@@ -410,10 +410,10 @@ function App() {
                                 <p>App</p><a className="venobox preview-link"
                                              href={IMG_portfolio_7}
                                              data-gall="portfolioGallery" data-title="App 3" data-lightbox="App"><i
-                                className="fas fa-plus" style={{fontSize: "20px"}}></i></a><a className="details-link"
-                                                                                              href="portfolio-details.html"
-                                                                                              title="More Details"><i
-                                className="fas fa-link" style={{fontSize: "20px"}}></i></a></div>
+                                className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
+                                                                                           href="portfolio-details.html"
+                                                                                           title="More Details"><i
+                                className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
                         </div>
                         <div className="col-12 col-lg-4 col-md-6 portfolio-item filter-card" data-aos="fade-up"
                              data-aos-delay="800"><img className="img-fluid"
@@ -423,10 +423,10 @@ function App() {
                                 <p>Card</p><a className="venobox preview-link"
                                               href={IMG_portfolio_8}
                                               data-gall="portfolioGallery" data-title="Card 3" data-lightbox="Card"><i
-                                className="fas fa-plus" style={{fontSize: "20px"}}></i></a><a className="details-link"
-                                                                                              href="portfolio-details.html"
-                                                                                              title="More Details"><i
-                                className="fas fa-link" style={{fontSize: "20px"}}></i></a></div>
+                                className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
+                                                                                           href="portfolio-details.html"
+                                                                                           title="More Details"><i
+                                className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
                         </div>
                         <div className="col-12 col-lg-4 col-md-6 portfolio-item filter-web" data-aos="fade-up"
                              data-aos-delay="900">
@@ -437,10 +437,10 @@ function App() {
                                 <p>Web</p><a className="venobox preview-link"
                                              href={IMG_portfolio_9}
                                              data-gall="portfolioGallery" data-title="Web 3" data-lightbox="Web"><i
-                                className="fas fa-plus" style={{fontSize: "20px"}}></i></a><a className="details-link"
-                                                                                              href="portfolio-details.html"
-                                                                                              title="More Details"><i
-                                className="fas fa-link" style={{fontSize: "20px"}}></i></a></div>
+                                className="fas fa-plus" style={{fontSize: "20px"}}/></a><a className="details-link"
+                                                                                           href="portfolio-details.html"
+                                                                                           title="More Details"><i
+                                className="fas fa-link" style={{fontSize: "20px"}}/></a></div>
                         </div>
                     </div>
                 </div>
@@ -472,21 +472,21 @@ function App() {
                                         <span className="text-uppercase text-dark">per Month</span>
                                         <ul className="list-group">
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Nec feugiat nisl<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Nec feugiat nisl<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Nulla at volutpat dola<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Nulla at volutpat dola<br/></span>
                                             </li>
                                             <li className="list-group-item text-muted"><span><i
-                                                className="fa fa-times"></i>&nbsp;<span
+                                                className="fa fa-times"/>&nbsp;<span
                                                 style={{textDecoration: "line-through"}}>Pharetra massa</span><br/></span>
                                             </li>
                                             <li className="list-group-item text-muted"><span><i
-                                                className="fa fa-times"></i>&nbsp;<span
+                                                className="fa fa-times"/>&nbsp;<span
                                                 style={{textDecoration: "line-through"}}>Massa ultricies mi</span><br/></span>
                                             </li>
                                             <li className="list-group-item text-muted"><span><i
-                                                className="fa fa-times"></i>&nbsp;<span
+                                                className="fa fa-times"/>&nbsp;<span
                                                 style={{textDecoration: "line-through"}}>Massa ultricies</span><br/></span>
                                             </li>
                                         </ul>
@@ -516,22 +516,22 @@ function App() {
                                         <span className="text-uppercase text-dark">PER MONTH<br/></span>
                                         <ul className="list-group">
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Nulla at volutpat dola<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Nulla at volutpat dola<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;<span
+                                                className="fa fa-check-square-o"/>&nbsp;<span
                                                 style={{textDecoration: "line-through"}}>Pharetra massa</span><br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;<span
+                                                className="fa fa-check-square-o"/>&nbsp;<span
                                                 style={{textDecoration: "line-through"}}>Massa ultricies mi</span><br/></span>
                                             </li>
                                             <li className="list-group-item text-muted"><span><i
-                                                className="fa fa-times"></i>&nbsp;<span
+                                                className="fa fa-times"/>&nbsp;<span
                                                 style={{textDecoration: "line-through"}}>Massa ultricies</span><br/></span>
                                             </li>
                                             <li className="list-group-item text-muted"><span><i
-                                                className="fa fa-times"></i>&nbsp;<span
+                                                className="fa fa-times"/>&nbsp;<span
                                                 style={{textDecoration: "line-through"}}>Massa</span><br/></span>
                                             </li>
                                         </ul>
@@ -561,19 +561,19 @@ function App() {
                                         <span className="text-uppercase text-dark">PER MONTH<br/></span>
                                         <ul className="list-group">
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Nulla at volutpat dola<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Nulla at volutpat dola<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Pharetra massa<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Pharetra massa<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Massa ultricies mi<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Massa ultricies mi<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Massa ultricies<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Massa ultricies<br/></span>
                                             </li>
                                             <li className="list-group-item text-muted"><span><i
-                                                className="fa fa-times"></i>&nbsp;<span
+                                                className="fa fa-times"/>&nbsp;<span
                                                 style={{textDecoration: "line-through"}}>Massa&nbsp;</span><br/></span>
                                             </li>
                                         </ul>
@@ -603,19 +603,19 @@ function App() {
                                         <span className="text-uppercase text-dark">PER MONTH<br/></span>
                                         <ul className="list-group">
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Nulla at volutpat dola<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Nulla at volutpat dola<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Pharetra massa<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Pharetra massa<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Massa ultricies mi<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Massa ultricies mi<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Massa ultricies<br/></span>
+                                                className="fa fa-check-square-o"/>&nbsp;Massa ultricies<br/></span>
                                             </li>
                                             <li className="list-group-item text-success"><span><i
-                                                className="fa fa-check-square-o"></i>&nbsp;Massa<br/></span></li>
+                                                className="fa fa-check-square-o"/>&nbsp;Massa<br/></span></li>
                                         </ul>
                                         <div>
                                             <button className="btn btn-warning text-white pricing-btn"
@@ -653,28 +653,28 @@ function App() {
                     <div className="row text-center" style={{backgroundColor: "#ffffff"}}>
                         <div className="col-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                             <div><i className="icon ion-ios-location get-in-touch-icons"
-                                    style={{fontSize: "40px", color: "#f95602"}}></i>
+                                    style={{fontSize: "40px", color: "#f95602"}}/>
                                 <h5 className="icon-title" style={{color: "#ff993f"}}>Location:</h5>
                                 <p style={{color: "#cccccc"}}>Naxal, Kathmandu, Nepal&nbsp;<br/></p>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
                             <div><i className="icon ion-ios-time get-in-touch-icons"
-                                    style={{fontSize: "40px", color: "#f95602"}}></i>
+                                    style={{fontSize: "40px", color: "#f95602"}}/>
                                 <h5 className="icon-title" style={{color: "#ff993f"}}>Open-Hours</h5>
                                 <p style={{color: "#cccccc"}}>Sunday-Friday:<br/>10:00 AM - 23:00 PM</p>
                             </div>
                         </div>
                         <div className="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
                             <div><i className="icon ion-android-mail get-in-touch-icons"
-                                    style={{fontSize: "40px", color: "#f95602"}}></i>
+                                    style={{fontSize: "40px", color: "#f95602"}}/>
                                 <h5 className="icon-title" style={{color: "#ff993f"}}>E-mail:</h5>
                                 <p style={{color: "#cccccc"}}>Contact: info@GnosisLife.com</p>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
                             <div><i className="icon ion-ios-telephone get-in-touch-icons"
-                                    style={{fontSize: "40px", color: "#f95602"}}></i>
+                                    style={{fontSize: "40px", color: "#f95602"}}/>
                                 <h5 style={{color: "#ff993f"}}>Call-Us:</h5>
                                 <p style={{color: "#cccccc"}}>+977 98*******5</p>
                             </div>
@@ -689,7 +689,7 @@ function App() {
                                         required=""
                                         name="First Name"/>
                                         <div className="line-box">
-                                            <div className="line"></div>
+                                            <div className="line"/>
                                         </div>
                                     </div>
                                 </div>
@@ -700,7 +700,7 @@ function App() {
                                         title="Invalid email address"
                                         pattern="^[\w]{1,}[\w.+-]{0,}@[\w-]{2,}([.][a-zA-Z]{2,}|[.][\w-]{2,}[.][a-zA-Z]{2,})$"/>
                                         <div className="line-box">
-                                            <div className="line"></div>
+                                            <div className="line"/>
                                         </div>
                                     </div>
                                 </div>
@@ -712,9 +712,9 @@ function App() {
                                             className="form-control input modern-form__form-control--textarea"
                                             data-aos="fade-up"
                                             placeholder="Message" name="Message" required="" minLength="1"
-                                            maxLength="1000"></textarea>
+                                            maxLength="1000"/>
                                             <div className="line-box">
-                                                <div className="line"></div>
+                                                <div className="line"/>
                                             </div>
                                         </div>
                                     </form>
@@ -739,8 +739,7 @@ function App() {
                      backgroundPosition: "center",
                      backgroundSize: "cover",
                      backgroundColor: "#03142c",
-                     // background: "url(&quot;assets/img/17-aoua1-night1.png?h=4b69291c09f7598206c94cbd642abc27&quot;) center / cover no-repeat, #03142c"
-            }}>
+                 }}>
                 <footer>
                     <div className="container">
                         <div className="row">
