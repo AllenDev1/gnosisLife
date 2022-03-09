@@ -47,6 +47,55 @@ app.get("/Company-json", (req, res) => {
 // 	})
 // })
 
+app.get("/register", (req, res) => {
+  const input = req.query;
+  const name = input.name;
+  const email = input.email;
+  const number = input.num;
+  const password = input.password;
+
+  checkEmail(email);
+  saveData(JSON.stringify(input));
+});
+
+const saveData = (data) => {
+  let fs = require("fs");
+  fs.appendFile("saveData.txt", data + "\n", callback);
+};
+
+const callback = (err) => {
+  if (err) {
+    console.log("error!");
+  }
+};
+
+const checkEmail = (email) => {
+  let randomNumber = Math.random();
+  console.log(randomNumber);
+  let nodemailer = require("nodemailer");
+
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: "YOUREMAIL@gmail.com",
+      pass: "YOUR PASSWORD",
+    },
+  });
+  const mailOptions = {
+    from: "YOUREMAIL@gmail.com",
+    to: email,
+    subject: "Verifying your email",
+    text: "send back the verification code" + randomNumber,
+  };
+  transporter.sendMail(mailOptions, function(error, info){
+	if (error) {
+	  console.log(error);
+	} else {
+	  console.log('Email sent: ' + info.response);
+	}
+  });
+
+};
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
