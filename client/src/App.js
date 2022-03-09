@@ -1,7 +1,7 @@
 import './App.css';
 import IMG_aboutus from './assets/img/aboutus.jpeg';
 import IMG_videogames
-    from './assets/img/team/video games touhou snakes green eyes miko smiling open mouth kochiya sanae japanese clothes anime gi_www.wallpaperhi.com_57.jpg';
+from './assets/img/team/video games touhou snakes green eyes miko smiling open mouth kochiya sanae japanese clothes anime gi_www.wallpaperhi.com_57.jpg';
 import IMG_07ab from './assets/img/team/07ab098e29d5eac4d98894b3178394f6.jpeg';
 import IMG_0f8 from './assets/img/team/0f84c537b19a860ed57ebca1a5d04f24.jpeg';
 import IMG_wp90 from './assets/img/team/wp9039266.jpeg';
@@ -15,9 +15,37 @@ import IMG_portfolio_7 from './assets/img/portfolio/portfolio-7.jpg';
 import IMG_portfolio_8 from './assets/img/portfolio/portfolio-8.jpg';
 import IMG_portfolio_9 from './assets/img/portfolio/portfolio-9.jpg';
 import IMG_17aoua from './assets/img/17-aoua1-night1.png'
+import {useEffect} from "react";
+import axios from "axios";
+
 
 function App() {
+
+    const AlertMe = () =>{
+        alert('ohh!');
+
+    }
+
+    const callfrombacked = () =>{
+        const options = {method: 'GET', url: '/Company-json'};
+        axios.request(options).then(function (response) {
+            console.log(response.data);
+        }).catch(function (error) {
+            console.error(error);
+        });
+    }
+    
+    useEffect(() => {
+      AlertMe();
+      console.log("okay");
+        callfrombacked();
+      
+    }, [])
+    
+    
+
     return (
+
         <div className="App">
             <header id="header" className="main-header" style={{
                 backgroundImage: `url(${IMG_17aoua})`,
